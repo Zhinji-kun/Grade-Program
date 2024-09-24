@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4fa;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0);
+    text-align: center;
+    margin: 20px;
+}
+
+.yippers{
+    position: absolute;
+    left: 100px;
+    max-width: 750px;
+    width: 30%;       
+    opacity: 0.8; 
+    z-index: -1;
+}
+
+.emogers {
+    position: absolute;
+    right: 100px;
+    max-width: 750px;
+    width: 30%;       
+    opacity: 0.8;      
+}
+
+.fool{
+    width: 90%;
+    max-width: 500px;
+    padding: 50px;
+    background-color: #ffffffc5;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+}
+
+.fool p {
+    font-size: 20px;
+}
+
+h1 {
+    color: #4b87f5;
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 10px 20px blue;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4b87f5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #3a6dce;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #4b87f5;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #3a6dce;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #4b87f5be;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    input[type="number"],
+    input[type="submit"] {
+        font-size: 0.9rem;
+    }
+}
